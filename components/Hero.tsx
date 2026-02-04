@@ -33,12 +33,8 @@ const Hero: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    // Show modal with specific image on first visit
-    const hasVisited = localStorage.getItem('synergia-visited');
-    if (!hasVisited) {
-      setSelectedImage('/WhatsApp Image 2026-02-04 at 11.52.30 AM (1).jpeg');
-      localStorage.setItem('synergia-visited', 'true');
-    }
+    // Show modal with specific image every time the website loads
+    setSelectedImage('/WhatsApp Image 2026-02-04 at 11.52.30 AM (1).jpeg');
   }, []);
 
   const marqueeStyle = `
@@ -96,7 +92,7 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="space-y-0">
-          <p className="text-slate-300 font-bold text-base md:text-lg mb-4 tracking-wider animate-slide-up animation-delay-300">21st NATIONAL LEVEL TECHNICAL SYMPOSIUM</p>
+          <p className="text-slate-300 font-bold text-base md:text-lg mb-4 tracking-wider animate-slide-up animation-delay-300">21'st NATIONAL LEVEL TECHNICAL SYMPOSIUM</p>
           <h1 className="text-5xl sm:text-7xl md:text-9xl font-orbitron font-extrabold tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-white to-slate-500 filter drop-shadow-[0_0_30px_rgba(59,130,246,0.4)] animate-pulse-glow">
             {SYMPOSIUM_NAME}
           </h1>
@@ -151,7 +147,7 @@ const Hero: React.FC = () => {
           </div>
           <div className="flex items-center gap-3 bg-slate-900/80 backdrop-blur-md px-4 md:px-6 py-3 rounded-2xl border border-slate-800 shadow-xl hover:border-blue-500/50 hover:shadow-blue-500/20 transition-all animate-slide-right">
             <MapPin className="w-5 h-5 text-blue-500 animate-rotate-slow" />
-            <span className="text-slate-200 font-bold text-sm md:text-base">VCET Main Auditorium, Erode</span>
+            <span className="text-slate-200 font-bold text-sm md:text-base">VCET, Erode</span>
           </div>
         </div>
 
