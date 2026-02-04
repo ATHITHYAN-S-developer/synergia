@@ -9,8 +9,8 @@ const Footer: React.FC = () => {
   const developers = [
     {
       id: 'athithyan',
-      name: 'Mr.S.ATHITHYAN',
-      role: 'Frontend Lead',
+      name: 'Mr.S.ATHITHYAN ',
+      role: 'Frontend Lead \n[Technical Head of MindCraft AI Club]',
       year: 'CSE 2nd Year, VCET',
       skills: ['React', 'TypeScript', 'Tailwind CSS'],
       power: '⚡ Full Stack Developer',
@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
     },
     {
       id: 'abyvighneesh',
-      name: 'Mr.P.Y.ABYVIGHNEESH',
-      role: 'UI/UX Lead',
+      name: 'Mr.P.Y.ABYVIGHNEESH ',
+      role: 'UI/UX Lead \n[Network Ninja of Hackersbay Club]',
       year: 'CSE 2nd Year, VCET',
       skills: ['User Research', 'Wireframing', 'Figma', 'UX Strategy'],
       power: '✨ Experience Designer',
@@ -28,16 +28,16 @@ const Footer: React.FC = () => {
     {
       id: 'shamruthya',
       name: 'Mr.N.SHAMRUTHYA GOPAL',
-      role: 'Backend Lead',
+      role: 'Backend Lead \n[President of Hackersbay Club]',
       year: 'CSE 3rd Year, VCET',
-      skills: ['Server Config',, 'APIs', 'Database', 'Optimization'],
+      skills: ['Server Config', 'APIs', 'Database', 'Optimization'],
       power: '🔥 Backend Specialist',
       bio: 'Built robust backend infrastructure and database architecture'
     },
     {
       id: 'devops',
       name: 'Mr.P.K.KAJA MAQBOOL',
-      role: 'DevOps & Deployment Lead',
+      role: 'DevOps & Deployment Lead \n[Joint Treasurer of Data Pirates Club]',
       year: 'CSE 3rd Year, VCET',
       skills: ['CI/CD', 'Docker', 'Cloud Deployment'],
       power: '🚀 System Orchestrator',
@@ -139,7 +139,7 @@ const Footer: React.FC = () => {
                     <p className="text-white font-bold text-sm group-hover:text-blue-300 transition-colors flex items-center gap-1">
                       <Code2 className="w-4 h-4 text-blue-500" /> {developers[0].name}
                     </p>
-                    <p className="text-slate-500 text-xs">{developers[0].role}</p>
+                    <p className="text-slate-500 text-xs"style={{ whiteSpace: 'pre-line' }}>{developers[0].role}</p>
                     <p className="text-slate-500 text-xs mt-1">{developers[0].year}</p>
                     <div className="flex gap-1 mt-2 flex-wrap">
                       {developers[0].skills.slice(0, 2).map((skill, i) => (
@@ -166,7 +166,7 @@ const Footer: React.FC = () => {
                     <p className="text-white font-bold text-sm group-hover:text-red-300 transition-colors flex items-center gap-1">
                       <Zap className="w-4 h-4 text-red-500" /> {developers[1].name}
                     </p>
-                    <p className="text-slate-500 text-xs">{developers[1].role}</p>
+                    <p className="text-slate-500 text-xs"style={{ whiteSpace: 'pre-line' }}>{developers[1].role}</p>
                     <p className="text-slate-500 text-xs mt-1">{developers[1].year}</p>
                     <div className="flex gap-1 mt-2 flex-wrap">
                       {developers[1].skills.slice(0, 2).map((skill, i) => (
@@ -193,7 +193,7 @@ const Footer: React.FC = () => {
                     <p className="text-white font-bold text-sm group-hover:text-yellow-300 transition-colors flex items-center gap-1">
                       🔥 {developers[2].name}
                     </p>
-                    <p className="text-slate-500 text-xs">{developers[2].role}</p>
+                    <p className="text-slate-500 text-xs" style={{ whiteSpace: 'pre-line' }}>{developers[2].role}</p>
                     <p className="text-slate-500 text-xs mt-1">{developers[2].year}</p>
                     <div className="flex gap-1 mt-2 flex-wrap">
                       {developers[2].skills.slice(0, 3).map((skill, i) => (
@@ -220,7 +220,7 @@ const Footer: React.FC = () => {
                     <p className="text-white font-bold text-sm group-hover:text-green-300 transition-colors flex items-center gap-1">
                       🚀 {developers[3].name}
                     </p>
-                    <p className="text-slate-500 text-xs">{developers[3].role}</p>
+                    <p className="text-slate-500 text-xs" style={{ whiteSpace: 'pre-line' }}>{developers[3].role}</p>
                     <p className="text-slate-500 text-xs mt-1">{developers[3].year}</p>
                     <div className="flex gap-1 mt-2 flex-wrap">
                       {developers[3].skills.slice(0, 2).map((skill, i) => (
