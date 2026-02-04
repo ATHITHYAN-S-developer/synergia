@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
     {
       id: 'devops',
       name: 'Mr.P.K.KAJA MAQBOOL',
-      role: 'DevOps & Deployment Lead \n[Joint Treasurer of Data Pirates Club]',
+      role: 'DevOps Lead \n[Joint Treasurer of Data Pirates Club]',
       year: 'CSE 3rd Year, VCET',
       skills: ['CI/CD', 'Docker', 'Cloud Deployment'],
       power: '🚀 System Orchestrator',
