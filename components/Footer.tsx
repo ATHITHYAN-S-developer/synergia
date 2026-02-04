@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Phone, Globe, Instagram, MapPin, ExternalLink, Rocket } from 'lucide-react';
+import { Phone, Globe, Instagram, MapPin, ExternalLink } from 'lucide-react';
 import { SYMPOSIUM_NAME, COORDINATORS, INSTAGRAM_HANDLE, COLLEGE_NAME, DEPARTMENT, OFFICIAL_URL } from '../constants';
 
 const Footer: React.FC = () => {
@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <Rocket className="w-8 h-8 text-blue-500" />
+              <img src="/logo.png" alt="Logo" className="h-10 w-auto" />
               <span className="font-orbitron text-2xl font-bold tracking-wider text-white">
                 {SYMPOSIUM_NAME}
               </span>
@@ -85,7 +85,25 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-slate-900 flex flex-col md:flex-row items-center justify-between gap-4 text-slate-600 text-xs">
+        <div className="pt-8 border-t border-slate-900 mb-6">
+          <div className="bg-gradient-to-r from-slate-900/50 to-slate-800/50 p-6 rounded-lg border border-slate-700/50 backdrop-blur-sm hover:border-blue-500/50 transition-all duration-300 animate-fade-in">
+            <div className="grid md:grid-cols-2 gap-4">
+              <div className="group">
+                <p className="text-slate-400 text-[10px] uppercase font-bold tracking-widest mb-2 group-hover:text-blue-400 transition-colors">Developed by</p>
+                <p className="text-white font-bold text-sm group-hover:text-blue-300 transition-colors">Mr.S.ATHITHYAN</p>
+                <p className="text-white font-bold text-sm group-hover:text-blue-300 transition-colors">Mr.P.Y.ABYVIGHNEESH</p>
+                <p className="text-slate-500 text-xs mt-1">CSE 2nd Year, VCET</p>
+              </div>
+              <div className="group">
+                <p className="text-slate-400 text-[10px] uppercase font-bold tracking-widest mb-2 group-hover:text-blue-400 transition-colors">Deployed by</p>
+                <p className="text-white font-bold text-sm group-hover:text-blue-300 transition-colors">Mr.N.SHAMRUTHYA GOPAL</p>
+                <p className="text-slate-500 text-xs mt-1">CSE 3rd Year, VCET</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="pt-4 border-t border-slate-900 flex flex-col md:flex-row items-center justify-between gap-4 text-slate-600 text-xs">
           <p>© 2026 {SYMPOSIUM_NAME} | VCET CSE Association - MAGNUMOPUS</p>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-blue-500 transition-colors">Privacy Policy</a>
