@@ -1,0 +1,29 @@
+
+Subject: Request for Hosting - Synergia '26 Official Symposium Website
+
+Respected Sir/Madam,
+
+I am writing to you on behalf of the Department of Computer Science and Engineering and our student association, MAGNUMOPUS. 
+
+We have developed a modern, responsive website for our upcoming national-level technical symposium, "SYNERGIA '26 - HORIZON," which is scheduled for February 11, 2026. 
+
+We would like to request your assistance in hosting this website under the official college server. Ideally, we would prefer the following subdomain:
+URL: https://www.velalarengg.ac.in/
+
+Attached to this email is the production-ready zip file containing the static build of the website (HTML/CSS/JS). The site is a standalone static application and does not require a database.
+
+Technical Details:
+- Framework: React (Static Build)
+- Entry File: index.html
+- Requirements: Standard static hosting with HTTPS enabled.
+
+Please let us know if any further information or configuration is required from our side to proceed with the deployment.
+
+Thank you for your constant support.
+
+Yours sincerely,
+
+[Your Name]
+Student Coordinator - MAGNUMOPUS
+Department of CSE
+Velalar College of Engineering and Technology
