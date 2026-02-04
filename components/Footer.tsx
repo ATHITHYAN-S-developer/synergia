@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
       id: 'devops',
       name: 'Mr.P.K.KAJA MAQBOOL',
       role: 'DevOps & Deployment Lead',
-      year: 'VCET',
+      year: 'CSE 3rd Year, VCET',
       skills: ['CI/CD', 'Docker', 'Cloud Deployment'],
       power: '🚀 System Orchestrator',
       bio: 'Managed deployment pipelines and system optimization to keep the project fast and reliable'
